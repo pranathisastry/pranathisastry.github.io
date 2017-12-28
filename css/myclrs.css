@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Arial', Arial;
+  overflow-x: hidden;
+}
+.section-padding {
+  padding:90px 0 100px
+}
+p {
+  font-size: 20 px;
+}
+header {
+  text-align: center;
+  padding: 2%;
+  background: white;
+  color: rgb(0, 56, 76);
+}
+header .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.navbar {
+  position: relative;
+  border: 1px solid transparent;
+  min-height: 50px;
+  padding: 1%;
+
+}
+
+.navbar-default {
+  background-color:orange;
+  border-color: black;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  display: block;
+  padding: 10px; 
+  background-color: rgba(61, 153, 244, 0.82);
+  text-decoration: none;
+}
+
+.container {
+  padding: 1%;
+}
+
+section {
+  padding:50px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
